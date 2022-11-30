@@ -43,6 +43,7 @@ export default function Home() {
           src="https://images.unsplash.com/photo-1513002749550-c59d786b8e6c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Y2xvdWR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
           layout="fill"
           className="object-cover"
+          alt='/'
         />
 
         {/* Search */}
