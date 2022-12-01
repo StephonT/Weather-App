@@ -6,8 +6,7 @@ const Weather = ({ data }) => {
 
   return (
     <div className="relative flex flex-col justify-between max-w-[500px] w-full h-[90vh] m-auto p-4 text-gray-300 z-10">
-
-        {/* Top */}
+      {/* Top */}
       <div className="relative flex justify-between pt-12">
         <div className="flex flex-col items-center">
           <Image
@@ -24,7 +23,21 @@ const Weather = ({ data }) => {
 
       {/* Bottom */}
       <div>
-        
+        <p>Weather in {data.name}</p>
+        <div>
+          <div>
+            <p>Feels Like</p>
+            <p>{data.main.feels_like.toFixed(0)}&#176;</p>
+          </div>
+          <div>
+            <p>Humidity</p>
+            <p>{data.main.humidity}%</p>
+          </div>
+          <div>
+            <p>Winds</p>
+            <p>{data.wind.speed.toFixed(0)} MPH</p>
+          </div>
+        </div>
       </div>
     </div>
   );
