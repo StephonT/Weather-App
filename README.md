@@ -17,6 +17,8 @@
 
   ## Usage
   The app can be used on any browser
+  ![Next Weather App SS](https://user-images.githubusercontent.com/104699408/205075519-5879cc78-83e5-4472-aca1-8e4a9159cec2.jpg)
+
 
   ## License
   This project is license under MIT
