@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import axios from "axios";
 import { useState } from "react";
 import { BsSearch } from "react-icons/bs";
@@ -41,7 +41,8 @@ export default function Home() {
         {/* Background Image */}
         <Image
           src="https://images.unsplash.com/photo-1513002749550-c59d786b8e6c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Y2xvdWR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
-          fill
+          layout="fill"
+          objectFit="cover"
           className="object-cover"
           alt='/'
         />
