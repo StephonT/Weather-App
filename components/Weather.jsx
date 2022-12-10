@@ -30,11 +30,11 @@ const Weather = ({ data }) => {
             <p className="text-xl">{data.main.feels_like.toFixed(0)}&#176;</p>
           </div>
           <div>
-            <p className="font-bold text-2xl">Humidity</p>
+            <p className="font-bold text-2xl mr-2">Humidity</p>
             <p className="text-xl">{data.main.humidity}%</p>
           </div>
           <div>
-            <p className="font-bold text-2xl">Winds</p>
+            <p className="font-bold text-2xl ml-2">Winds</p>
             <p className="text-xl">{data.wind.speed.toFixed(0)} MPH</p>
           </div>
         </div>
